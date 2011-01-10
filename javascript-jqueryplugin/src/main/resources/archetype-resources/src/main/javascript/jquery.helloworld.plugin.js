@@ -18,7 +18,7 @@
  * 'hello world'.
  *
  * This is some kind of skeleton and starting point for implementing your very own jquery plugins.
- * @fileOverview A simple Quickstart javascript example
+ * @fileOverview A simple jquery plugin example
  * @version ${project.version}
  */
 (function($)
