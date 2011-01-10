@@ -22,6 +22,20 @@ The quickstart archetype creates a simple javascript application.
       -DartifactId=javascript-quickstart-application
 
 
+The javascript-jqueryplugin archetype
+-------------------------------------
+The jqueryplugin archetype creates a simple jquery plugin implementation which is a good starting point for your
+very own jquery plugins. The skeleton code obeys the rules of developing good jquery plugins. For further information
+check the jquery plugin authoring guide.
+
+    mvn archetype:generate \
+      -DarchetypeArtifactId=javascript-jqueryplugin \
+      -DarchetypeGroupId=de.akquinet.javascript.archetypes \
+      -DarchetypeVersion=0.0.1-SNAPSHOT \
+      -DgroupId=your.company \
+      -DartifactId=javascript-jqueryplugin
+
+
 Credits
 -------
 The javascript-archetype-project is an open source project licensed under the Apache License 2.0.

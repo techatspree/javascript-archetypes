@@ -34,6 +34,7 @@
 
   <modules>
     <module>javascript-quickstart</module>
+    <module>javascript-jqueryplugin</module>
   </modules>
 
   <organization>
