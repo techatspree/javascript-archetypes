@@ -1,5 +1,5 @@
 <archetype>
-  <id>javascript-quickstart</id>
+  <id>javascript-jqueryplugin</id>
   <fileSets>
     <fileSet filtered="false" packaged="false" encoding="UTF-8">
       <directory>src</directory>
