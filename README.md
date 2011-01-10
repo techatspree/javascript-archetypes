@@ -11,7 +11,7 @@ to develop an javascript application. The created projects automatically:
 
 
 The javascript-quickstart archetype
---------------------------------
+-----------------------------------
 The quickstart archetype creates a simple javascript application.
 
     mvn archetype:generate \
@@ -22,8 +22,8 @@ The quickstart archetype creates a simple javascript application.
       -DartifactId=javascript-quickstart-application
 
 
-Once generated, the application is ready to be built.
------------------------------------------------------
+Credits
+-------
 The javascript-archetype-project is an open source project licensed under the Apache License 2.0.
 It is founded by [akquinet](http://akquinet.de/en)
 
