@@ -13,12 +13,15 @@
  * limitations under the License.
  */
 
-/** Loading the javascript file to be tested */
-load(basePath + "quickstart.js");
 
-function testAddMethod() {
-    var number1 = 1;
-    var number2 = 4;
+describe('The quickstart object',function(){
+    it('adds two numbers',function(){
 
-    assertEquals(5, DE_AKQUINET.quickstart.addNumbers(number1, number2));
-}
+        var number1 = 1;
+        var number2 = 4;
+
+        var result = DE_AKQUINET.quickstart.addNumbers(number1, number2);
+        expect(result).toBe(5);
+    });
+
+});

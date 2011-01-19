@@ -13,16 +13,27 @@
  * limitations under the License.
  */
 
-load(basePath + "jquery.helloworld.plugin.js");
+describe('The Hello World jQuery Plugin',function(){
 
-function testHelloWorld() {
+	// Remove any exisiting toastmessage container
+	beforeEach(function() {
 
-    // create some div tag
-    $('<div>').appendTo('body');
+        // remove exisiting testing tags
+        $('.test-container').remove();
+        // create some div tag with a special css class
+        $('<div>').addClass('test-container').appendTo('body');
+    });
 
-    // selecting the div tag and run the jquery plugin on it
-    $('div').helloWorld('createHelloWorldSpanTags');
+	//Specs
+	describe('Saying Hello World',function() {
+		it('creates a span-tag and inserts "Hello World"',function(){
 
-    // assure that the right tags are created
-    assertEquals('Hello World', $('div span').text());
-}
+            // call to our jquery plugin under test
+            $('.test-container').helloWorld('createHelloWorldSpanTags');
+
+            var actualInsertedText = $('.test-container span').text();
+            expect(actualInsertedText).toEqual("Hello World");
+		});
+    });
+
+});
