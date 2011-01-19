@@ -4,7 +4,7 @@ javascript-archetypes
 This projects provides several Maven archetypes for Javascript. Those archetypes allows to quickly bootstrap a Maven project
 to develop an javascript application. The created projects automatically:
 
-* running jsunit tests
+* running jasmine (BDD javascript testingframework) tests
 * creating jsdocs
 * running jslint
 * creating compressed versions of all your js and css files
