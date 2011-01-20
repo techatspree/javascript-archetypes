@@ -35,6 +35,8 @@
   <modules>
     <module>javascript-quickstart</module>
     <module>javascript-jqueryplugin</module>
+    <module>javascript-quickstart-it</module>
+    <module>javascript-jqueryplugin-it</module>
   </modules>
 
   <organization>
@@ -66,7 +68,15 @@
     </resources>
 
     <plugins>
-
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.1</version>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
@@ -98,6 +108,15 @@
     <developerConnection>scm:git:git@github.com:akquinet/javascript-archetypes.git</developerConnection>
   </scm>
 
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.1</version>
+      <type>jar</type>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 
   <profiles>
     <profile>
