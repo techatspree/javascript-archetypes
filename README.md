@@ -17,7 +17,7 @@ The quickstart archetype creates a simple javascript application.
     mvn archetype:generate \
       -DarchetypeArtifactId=javascript-quickstart \
       -DarchetypeGroupId=de.akquinet.javascript.archetypes \
-      -DarchetypeVersion=0.0.1-SNAPSHOT \
+      -DarchetypeVersion=1.0.0 \
       -DgroupId=your.company \
       -DartifactId=javascript-quickstart-application
 
@@ -31,7 +31,7 @@ check the jquery plugin authoring guide.
     mvn archetype:generate \
       -DarchetypeArtifactId=javascript-jqueryplugin \
       -DarchetypeGroupId=de.akquinet.javascript.archetypes \
-      -DarchetypeVersion=0.0.1-SNAPSHOT \
+      -DarchetypeVersion=1.0.0 \
       -DgroupId=your.company \
       -DartifactId=javascript-jqueryplugin
 
