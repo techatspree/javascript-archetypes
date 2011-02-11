@@ -17,14 +17,14 @@
 
   <groupId>de.akquinet.javascript.archetypes</groupId>
   <artifactId>javascript-quickstart</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>Akquinet Javascript Archetype - javascript-quickstart</name>
   <description>Creates a skeleton for an Javascript application</description>
 
   <parent>
     <groupId>de.akquinet.javascript.archetypes</groupId>
     <artifactId>javascript-archetype-project</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
   </parent>
 
 </project>
