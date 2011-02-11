@@ -17,12 +17,12 @@
   <parent>
     <groupId>de.akquinet.javascript.archetypes</groupId>
     <artifactId>javascript-archetype-project</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
 
   <groupId>de.akquinet.javascript.archetypes</groupId>
   <artifactId>javascript-quickstart-it</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>Akquinet Javascript Archetype - javascript-quickstart IT</name>
 
   <dependencies>
