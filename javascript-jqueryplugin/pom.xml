@@ -20,4 +20,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Akquinet Javascript Archetype - javascript-jqueryplugin</name>
   <description>Creates a skeleton for an Javascript jquery plugin</description>
+
+  <parent>
+      <groupId>de.akquinet.javascript.archetypes</groupId>
+      <artifactId>javascript-archetype-project</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+  </parent>
 </project>
